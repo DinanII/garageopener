@@ -9,3 +9,6 @@
   font-display: swap;
   src: url("../fonts/Gabarito-VariableFont_wght.ttf") format("ttf");
 }
+@theme {
+  --font-gabarito: "Gabarito", "sans-serif";
+}

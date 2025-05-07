@@ -17,6 +17,6 @@
   </div>
 
   <p class="font-gabarito font-extrabold text-lg">Card Title</p>
-  <p class="text-[#7A7A7B]">Unlock peace of mind with our garage door opener, effortless convenience coupled with robust
+  <p class="text-[#7A7A7B] font-gabarito">Unlock peace of mind with our garage door opener, effortless convenience coupled with robust
     security at the touch of a button.</p>
 </div>
