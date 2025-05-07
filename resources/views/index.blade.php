@@ -11,3 +11,5 @@
   </svg>
 
 </x-card>
+<x-button>
+</x-button>
