@@ -7,3 +7,6 @@
   'secondaryButtonText' => '',
   'secondaryButtonIcon' => ''
 ])
+<div>
+<x-label></x-label>
+</div>
