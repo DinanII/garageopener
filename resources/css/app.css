@@ -11,4 +11,6 @@
 }
 @theme {
   --font-gabarito: "Gabarito", "sans-serif";
+  --color-accentPrimary: #00D1B2;
+  --color-accentSecondary: #000000;
 }
