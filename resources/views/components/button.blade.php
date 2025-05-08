@@ -1,5 +1,5 @@
 @props([
-'text' => 'button Text',
+'text' => 'Button Text',
 'primary' => true
 ])
 <button class="{{ $primary == true ? 'bg-accentPrimary' : 'bg-accentSecondary' }} m-2 p-3 text-white font-bold rounded-full flex" >
