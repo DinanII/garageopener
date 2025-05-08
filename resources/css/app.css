@@ -13,6 +13,7 @@
   --font-gabarito: "Gabarito", "sans-serif";
   --color-accentPrimary: #00D1B2;
   --color-accentSecondary: #000000;
+  --color-borderAccent: #7A7A7B;
 }
 * {
   font-family: "Gabarito", "sans-serif"
