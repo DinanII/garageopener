@@ -18,4 +18,4 @@
 </svg>
 </x-button>
 <x-label />
-<x-textblock></x-textblock>
+<x-textblock mainTitleClasses="{{ 'text-3xl'  }}" ></x-textblock>
