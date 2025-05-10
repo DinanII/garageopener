@@ -1,9 +1,11 @@
 @props([
 'text' => 'Button Text',
-'primary' => true
+'primary' => true,
+'background' => '',
+'textColor' => 'text-black'
 ])
-<button class="{{ $primary == true ? 'bg-accentPrimary' : 'bg-accentSecondary' }} m-2 p-3 text-white font-bold rounded-full flex" >
-  <span class="mr-2" >{{ $text }}</span>
+<button onclick="{{ $attributes->get('onclick') }} class="{{ $primary == true && $background == '' ? 'bg-accentPrimary' : 'bg-accentSecondary' }} {{ $background != '' ? $background : '' }} m-2 p-3 text-white font-bold rounded-full flex" >
+  <span class="mr-2 {{ $background !== '' ? $textColor  : '' }} " >{{ $text }}</span>
   @if (trim($slot) === '')
       <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="" viewBox="0 0 16 16">
       <path
