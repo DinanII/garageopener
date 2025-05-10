@@ -1,6 +1,12 @@
 @extends('layouts.app')
-@include('components.card')
+<!-- @include('components.card') -->
 
+@section('content')
+<!-- Hero section -->
+<section class="bg-softPink flex rounded-b-xl overflow-hidden" >
+<x-textblock class="w-1/2" labelText="Introduction" description="At Lyfter, we make smart devices to automate your home. Convenient, secure and customizable." mainTitle="Everyday Convenience" mainTitleClasses="{{ 'text-7xl'  }}" primaryButtonText="Buy Lyfter Garage" secondaryButtonText="Download the app" ></x-textblock>
+<img class="w-1/2 rounded-tl-full overflow-hidden" src="https://picsum.photos/600/600">
+</section>
 <x-card cardTitle="Card Title"
   cardDescription="Unlock peace of mind with our garage door opener, effortless convenience coupled with robust security at the touch of a button.">
   <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#00D1B2" class="" viewBox="0 0 16 16">
@@ -22,4 +28,4 @@
 </svg>
 </x-button>
 <x-label />
-<x-textblock mainTitleClasses="{{ 'text-3xl'  }}" ></x-textblock>
+@endsection
