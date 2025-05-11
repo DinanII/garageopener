@@ -9,11 +9,11 @@
   'secondaryButtonIcon' => '',
   'buttonClasses' => ''
 ])
-<div class="p-13 h-fit" >
+<div class="p-13 h-fit w-fit" >
   <x-label :textContent="$labelText"></x-label>
-  <h3 class="font-extrabold max-w-7/12 h-fit {{ $mainTitleClasses }}" >{{ $mainTitle }}</h3>
-  <p class='my-6 max-w-7/12' >{{ $description }}</p>
-  <div class="flex" >
+  <h3 class="font-extrabold h-fit {{ $mainTitleClasses }}" >{{ $mainTitle }}</h3>
+  <p class='my-6 w-fit' >{{ $description }}</p>
+  <div class="flex w-fit" >
   @if($primaryButtonText !== 'NO_DISPLAY')
   <x-button :primary="true" :text="$primaryButtonText">
     {!! $primaryButtonIcon !!}
