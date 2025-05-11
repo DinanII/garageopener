@@ -4,7 +4,13 @@
 
 ## Introduction
 This is a (onepage) design created in a WordPress Sage theme,
-using Laravel Blade for templating. It also brings modern JavaScript tooling to Wordpress Themes, including CSS Hot Realoading.
+using Laravel Blade for templating. It also brings modern JavaScript tooling to Wordpress Themes, including CSS Hot Reloading.
+
+## Resources
+
+### Design - Figma
+
+The [design](https://www.figma.com/design/FBjy99LdXoHJWKaXGW4gwg/Lyfter-garage-opener?node-id=815-75&t=RBHDnnBim8XXls5Q-0) is available on Figma.
 
 ## Setup instructions
 
