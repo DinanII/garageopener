@@ -2,7 +2,7 @@
   'cardTitle'=> 'CardTitle',
   'cardDescription' => "Card Description"
 ])
-<div class="p-10 m-12 rounded-[2vw] border-2 border-[#C5C2C3] w-100 ">
+<div class="p-10 m-12 rounded-[2vw] border-2 border-[#C5C2C3] w-100  ">
   <div class="flex place-content-between">
     <div class="bg-opacity-30 bg-[#00D1B21A] rounded-full w-12 h-12 p-2 flex justify-center items-center mb-8">
       @if (trim($slot) === '')

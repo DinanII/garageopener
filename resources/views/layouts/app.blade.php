@@ -17,7 +17,6 @@
         {{ __('Skip to content', 'sage') }}
       </a>
 
-      {{-- Verplaats deze regel naar hier --}}
       @include('sections.header')
 
       <main id="main" class="main">

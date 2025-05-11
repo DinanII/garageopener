@@ -9,7 +9,7 @@
   'secondaryButtonIcon' => '',
   'buttonClasses' => ''
 ])
-<div class="p-13" >
+<div class="p-13 h-fit" >
   <x-label :textContent="$labelText"></x-label>
   <h3 class="font-extrabold max-w-7/12 h-fit {{ $mainTitleClasses }}" >{{ $mainTitle }}</h3>
   <p class='my-6 max-w-7/12' >{{ $description }}</p>

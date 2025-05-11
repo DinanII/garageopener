@@ -3,7 +3,7 @@
 
 @section('content')
   <!-- Hero section -->
-  <section class="bg-softPink flex rounded-b-xl overflow-hidden">
+  <section class="bg-softPink flex rounded-b-xl overflow-hidden items-center ">
     <x-textblock class="w-1/2" labelText="Introduction"
     description="At Lyfter, we make smart devices to automate your home. Convenient, secure and customizable."
     mainTitle="Everyday Convenience" mainTitleClasses="{{ 'text-7xl'  }}" primaryButtonText="Buy Lyfter Garage"
@@ -12,7 +12,7 @@
   </section>
 
   <!-- Cards section -->
-  <section class="flex p-2">
+  <section class="flex p-2 justify-center ">
     <x-card cardTitle="Effortless Security"
     cardDescription="Unlock peace of mind with our garage door opener, effortless convenience coupled with robust security at the touch of a button.">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00D1B2" class="bi bi-geo-alt-fill"
@@ -42,35 +42,35 @@
   </section>
   <!-- TextBlock & image sections -->
   <!-- Section 1/4-->
-  <section class="flex justify-between w-11/12 mx-auto">
-    <x-textblock class="w-1/2" labelText="Section"
-    description="At Lyfter, we make smart devices to automate your home. Convenient, secure and customizable."
-    mainTitle="Everyday Convenience" primaryButtonText="Buy Lyfter Garage" mainTitleClasses="text-4xl"
+  <section class="flex justify-around w-10/12 mx-auto">
+    <x-textblock class="w-fit" labelText="Section"
+    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque recusandae, autem sint quaerat quod obcaecati deleniti nobis earum harum quia dolorum illo eveniet modi nulla maiores voluptatibus dicta debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ea reiciendis dolorem amet nisi hic magnam corrupti earum molestiae expedita libero dolores temporibus, accusamus eaque veniam debitis repellendus, omnis enim?"
+    mainTitle="This is a large title" primaryButtonText="Buy Lyfter Garage" mainTitleClasses="text-4xl"
     secondaryButtonText="Download the app"></x-textblock>
-    <img class="w-1/3" src="https://picsum.photos/600/600">
+    <img class="1/2" src="https://picsum.photos/600/600">
   </section>
   <!-- Section 2/4-->
-  <section class="flex justify-between w-11/12 mx-auto">
-    <img class="w-1/3" src="https://picsum.photos/600/600">
-    <x-textblock class="w-1/2" labelText="Section"
-    description="At Lyfter, we make smart devices to automate your home. Convenient, secure and customizable."
-    mainTitle="Everyday Convenience" primaryButtonText="Buy Lyfter Garage" mainTitleClasses="text-4xl"
+  <section class="flex justify-around w-10/12 mx-auto">
+    <img class="1/2" src="https://picsum.photos/600/600">
+    <x-textblock class="w-fit" labelText="Section"
+    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque recusandae, autem sint quaerat quod obcaecati deleniti nobis earum harum quia dolorum illo eveniet modi nulla maiores voluptatibus dicta debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ea reiciendis dolorem amet nisi hic magnam corrupti earum molestiae expedita libero dolores temporibus, accusamus eaque veniam debitis repellendus, omnis enim?"
+    mainTitle="This is a large title" primaryButtonText="Buy Lyfter Garage" mainTitleClasses="text-4xl"
     secondaryButtonText="Download the app"></x-textblock>
   </section>
     <!-- Section 3/4-->
-    <section class="flex justify-between ml-0">
-    <x-textblock class="w-1/2" labelText="Section"
-    description="At Lyfter, we make smart devices to automate your home. Convenient, secure and customizable."
-    mainTitle="Everyday Convenience" primaryButtonText="Buy Lyfter Garage" mainTitleClasses="text-4xl"
+    <section class="flex justify-around ml-0">
+    <x-textblock class="w-fit" labelText="Section"
+    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque recusandae, autem sint quaerat quod obcaecati deleniti nobis earum harum quia dolorum illo eveniet modi nulla maiores voluptatibus dicta debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ea reiciendis dolorem amet nisi hic magnam corrupti earum molestiae expedita libero dolores temporibus, accusamus eaque veniam debitis repellendus, omnis enim?"
+    mainTitle="This is a large title" primaryButtonText="Buy Lyfter Garage" mainTitleClasses="text-4xl"
     secondaryButtonText="Download the app"></x-textblock>
-    <img class="w-1/3" src="https://picsum.photos/600/600">
+    <img class="1/2" src="https://picsum.photos/600/600">
   </section>
   <!-- Section 4/4-->
-  <section class="flex justify-between">
-    <img class="w-1/3" src="https://picsum.photos/600/600">
-    <x-textblock class="w-1/2" labelText="Section"
-    description="At Lyfter, we make smart devices to automate your home. Convenient, secure and customizable."
-    mainTitle="Everyday Convenience" primaryButtonText="Buy Lyfter Garage" mainTitleClasses="text-4xl"
+  <section class="flex justify-around">
+    <img class="1/2" src="https://picsum.photos/600/600">
+    <x-textblock class="w-fit" labelText="Section"
+    description="Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore cumque recusandae, autem sint quaerat quod obcaecati deleniti nobis earum harum quia dolorum illo eveniet modi nulla maiores voluptatibus dicta debitis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias ea reiciendis dolorem amet nisi hic magnam corrupti earum molestiae expedita libero dolores temporibus, accusamus eaque veniam debitis repellendus, omnis enim?"
+    mainTitle="This is a large title" primaryButtonText="Buy Lyfter Garage" mainTitleClasses="text-4xl"
     secondaryButtonText="Download the app"></x-textblock>
   </section>
   <!-- Loose Components -->
