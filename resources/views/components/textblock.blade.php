@@ -14,7 +14,7 @@
   <h3 class="font-extrabold h-fit {{ $mainTitleClasses }}" >{{ $mainTitle }}</h3>
   <p class='my-6 w-fit' >{{ $description }}</p>
   <div class="flex w-fit" >
-  @if($primaryButtonText !== 'NO_DISPLAY')
+  <!-- @if($primaryButtonText !== 'NO_DISPLAY')
   <x-button :primary="true" :text="$primaryButtonText">
     {!! $primaryButtonIcon !!}
   </x-button>
@@ -23,7 +23,8 @@
   <x-button :primary="false" :text="$secondaryButtonText">
     {!! $secondaryButtonIcon !!}
   </x-button>
-  @endif
+  @endif -->
+  {{ $slot }}
   </div>
 
 </div>
