@@ -1,31 +1,25 @@
-<p align="center">
-  <a href="https://roots.io/sage/"><img alt="Sage" src="https://cdn.roots.io/app/uploads/logo-sage.svg" height="100"></a>
-</p>
+# GarageOpener
 
-<p align="center">
-  <a href="https://packagist.org/packages/roots/sage"><img alt="Packagist Installs" src="https://img.shields.io/packagist/dt/roots/sage?label=projects%20created&colorB=2b3072&colorA=525ddc&style=flat-square"></a>
-  <a href="https://github.com/roots/sage/actions/workflows/main.yml"><img alt="Build Status" src="https://img.shields.io/github/actions/workflow/status/roots/sage/main.yml?branch=main&logo=github&label=CI&style=flat-square"></a>
-  <a href="https://bsky.app/profile/roots.dev"><img alt="Follow roots.dev on Bluesky" src="https://img.shields.io/badge/follow-@roots.dev-0085ff?logo=bluesky&style=flat-square"></a>
-</p>
+![Design Hero section](./screenshot.png)
 
-# Sage
+## Introduction
+This is a (onepage) design created in a WordPress Sage theme,
+using Laravel Blade for templating. It also brings modern JavaScript tooling to Wordpress Themes, including CSS Hot Realoading.
 
-**Advanced hybrid WordPress starter theme with Laravel Blade and Tailwind CSS**
+## Setup instructions
 
-- 🔧 Clean, efficient theme templating with Laravel Blade
-- ⚡️ Modern front-end development workflow powered by Vite
-- 🎨 Out of the box support for Tailwind CSS
-- 🚀 Harness the power of Laravel with [Acorn integration](https://github.com/roots/acorn)
-- 📦 Block editor support built-in
+### Prerequisites
 
-Sage brings proper PHP templating and modern JavaScript tooling to WordPress themes. Write organized, component-based code using Laravel Blade, enjoy instant builds and CSS hot-reloading with Vite, and leverage Laravel's robust feature set through Acorn.
+* An Wordpress installation
+* (local) LAMPP stack (required for wordpress). You can use for example [Laragon](https://laragon.org/) or [XAMPP](https://www.apachefriends.org/).
+* Recent Node install (with NPM, Node Package Manager)
+* Recent Composer install (PHP package manager)
 
-[Read the docs to get started](https://roots.io/sage/docs/installation/)
+### Installation steps
 
-## Sponsors
-
-Sage is an open source project and completely free to use. If you've benefited from our projects and would like to support our future endeavors, [please consider sponsoring us](https://github.com/sponsors/roots).
-
-<div align="center">
-<a href="https://carrot.com/"><img src="https://cdn.roots.io/app/uploads/carrot.svg" alt="Carrot" width="120" height="90"></a> <a href="https://wordpress.com/"><img src="https://cdn.roots.io/app/uploads/wordpress.svg" alt="WordPress.com" width="120" height="90"></a> <a href="https://worksitesafety.ca/careers/"><img src="https://cdn.roots.io/app/uploads/worksite-safety.svg" alt="Worksite Safety" width="120" height="90"></a> <a href="https://40q.agency/"><img src="https://cdn.roots.io/app/uploads/40q.svg" alt="40Q" width="120" height="90"></a> <a href="https://www.itineris.co.uk/"><img src="https://cdn.roots.io/app/uploads/itineris.svg" alt="Itineris" width="120" height="90"></a> <a href="https://bonsai.so/"><img src="https://cdn.roots.io/app/uploads/bonsai.svg" alt="Bonsai" width="120" height="90"></a>
-</div>
+1. Clone repository to `{wordpress installation}/wp-content/themes`.
+2. Open the project in a editor like VS Code, Webstorm ect.
+3. Open terminal window in editor (or the terminal application on the system itself). Make sure you are in the current directory (project root).
+4. Run `npm install` to install all required NPM-packages.
+5. Run `composer install` to install all required Composer-packages.
+6. If everything went correctly, the website should be available on the wordpress address (like http://localhost/wordpress or http://wordpress.test).
