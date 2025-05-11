@@ -1,6 +1,6 @@
 <header class=" bg-softPink">
   <!-- Content Wrapper -->
-  <div class="w-11/12 mx-auto flex justify-between py-3">
+  <div class="w-10/12 mx-auto flex justify-between py-3">
     <img src="{{ get_template_directory_uri() }}/resources/images/LyfterLogo.png" alt="Lyfter Logo" class="h-1/3">
     <div class="flex justify-around w-5/12 h-fit">
       <div class="flex">

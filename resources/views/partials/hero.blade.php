@@ -1,5 +1,5 @@
 <section class="bg-softPink flex rounded-b-xl overflow-hidden items-center ">
-  <x-textblock class="w-1/2" labelText="Introduction"
+  <x-textblock labelText="Introduction"
     description="At Lyfter, we make smart devices to automate your home. Convenient, secure and customizable."
     mainTitle="Everyday Convenience" mainTitleClasses="{{ 'text-7xl'  }}">
     <x-button>
