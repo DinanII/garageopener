@@ -10,7 +10,7 @@ using Laravel Blade for templating. It also brings modern JavaScript tooling to 
 
 ### Design - Figma
 
-The [design](https://www.figma.com/design/FBjy99LdXoHJWKaXGW4gwg/Lyfter-garage-opener?node-id=815-75&t=RBHDnnBim8XXls5Q-0) is available on Figma.
+The [design](https://www.figma.com/design/FBjy99LdXoHJWKaXGW4gwg/Lyfter-garage-opener?node-id=815-75&t=RBHDnnBim8XXls5Q-0) is available on Figma (be aware: It is password protected).
 
 ## Setup instructions
 
