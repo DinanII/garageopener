@@ -28,4 +28,5 @@ The [design](https://www.figma.com/design/FBjy99LdXoHJWKaXGW4gwg/Lyfter-garage-o
 3. Open terminal window in editor (or the terminal application on the system itself). Make sure you are in the current directory (project root).
 4. Run `npm install` to install all required NPM-packages.
 5. Run `composer install` to install all required Composer-packages.
-6. If everything went correctly, the website should be available on the wordpress address (like http://localhost/wordpress or http://wordpress.test).
+6. In the WordPress environment, select this repository as theme.
+7. If everything went correctly, the website should be available on the wordpress address (like http://localhost/wordpress or http://wordpress.test).
